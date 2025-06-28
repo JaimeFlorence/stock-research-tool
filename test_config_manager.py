@@ -3,6 +3,8 @@ import os
 import json
 from config_manager import ConfigManager
 
+#// These are tests.
+
 @pytest.fixture
 def config_manager(tmp_path):
     config_path = tmp_path / "config.json"
